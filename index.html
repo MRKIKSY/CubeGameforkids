@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MR KIKSY SMASHING CUBE GAME </title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Assuming your CSS file is in the same directory as your HTML file -->
 </head>
 <body>
     <!-- Game canvas -->
@@ -13,9 +13,7 @@
     <!-- Gameplay HUD -->
     <div class="hud">
         <div class="hud__score">
-            <div class="score-lbl">Score: <span id="score">0</span>
-            <BR> Game Instruction<BR>
-            </div>
+            <div class="score-lbl">Score: <span id="score">0</span><br> Game Instruction<br></div>
             <div class="cube-count-lbl">Cube Count: <span id="cubeCount">0</span></div>
         </div>
         <div class="pause-btn" onclick="pauseGame()"><div>Pause</div></div>
@@ -28,7 +26,7 @@
     <div class="menus">
         <div class="menu menu--main">
             <h1>MR KIKSY SMASHING CUBE KIDS GAME</h1>
-            <h11>  GAME INSTRUCTIONS FROM MR KIKSY: <br><br>SMASH  the  BOUNCING CUBES  on the screen<br><br> by drawing a LINE across the CUBES before it drops and dissapears  </h11>
+            <h11>  GAME INSTRUCTIONS FROM MR KIKSY: <br><br>SMASH  the  BOUNCING CUBES  on the screen<br><br> by drawing a LINE across the CUBES before it drops and disappears  </h11>
             <br><br>
             <button type="button" class="play-normal-btn" onclick="startGame()"> PLAY GAME</button>
             <button type="button" class="play-casual-btn" onclick="startCasualMode()"> CASUAL MODE</button>
@@ -41,7 +39,7 @@
         </div>
         <div class="menu menu--score">
             <h1>  Game Over !!! </h1>
-            <h3>  GAME INSTRUCTIONS FROM MR KIKSY: <br><br>SMASH  the  BOUNCING CUBES  on the screen<br><br> by drawing a LINE across the CUBES before it drops and dissapears  </h3>
+            <h3>  GAME INSTRUCTIONS FROM MR KIKSY: <br><br>SMASH  the  BOUNCING CUBES  on the screen<br><br> by drawing a LINE across the CUBES before it drops and disappears  </h3>
             <br><br>
             <h2>Your Score:</h2>
            
@@ -53,6 +51,6 @@
         </div>
     </div>
 
-    <script src="index.js .js"></script>
+    <script src="index.js"></script> <!-- Assuming your JavaScript file is in the same directory as your HTML file -->
 </body>
 </html>
